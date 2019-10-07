@@ -1,0 +1,19 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "appsync-prod-20191007092316-authRole",
+            "UnauthRoleArn": "arn:aws:iam::474717861439:role/appsync-prod-20191007092316-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::474717861439:role/appsync-prod-20191007092316-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "appsync-prod-20191007092316-deployment",
+            "UnauthRoleName": "appsync-prod-20191007092316-unauthRole",
+            "StackName": "appsync-prod-20191007092316",
+            "StackId": "arn:aws:cloudformation:us-east-1:474717861439:stack/appsync-prod-20191007092316/ff59f180-e8b5-11e9-83d5-0a009cdf2216"
+        },
+        "categories": {
+            "auth": {
+                "appsync2e611dc7": {}
+            }
+        }
+    }
+}
