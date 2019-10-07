@@ -1,1 +1,15 @@
-<p>todo works!</p>
+<div style="text-align: center">
+    <button (click)="createTodo()">
+        Create todo
+    </button>
+    <button (click)="listTodos()">
+        get todo
+    </button>
+
+    <div *ngFor="let todo of allTodos">
+        <hr />
+        <p>Title: {{todo.name}}</p>
+        <p>Body: {{todo.description}}</p>
+        <p>{{todo.completed ? "Completed" : "Pending"}}</p>
+    </div>
+</div>
